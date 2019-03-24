@@ -1,0 +1,31 @@
+@font-face {
+    src: url('font.ttf');
+}
+
+.body {
+    -fx-font-family: "Adobe Garamond Pro";
+    -fx-font-size: 14;
+    -fx-focus-color: "#f0a032";
+    -fx-faint-focus-color: "transparent";
+    -fx-background-color: "#232323";
+}
+
+.main-content {
+    -fx-background-color: "#e9e9e9";
+    -fx-background-radius: 5;
+}
+
+.item-labels {
+    -fx-text-fill: "#257372";
+    -fx-font-size: 16;
+}
+
+.button{
+    -fx-font-family: 'Times New Roman';
+    -fx-background-color: "#f0a032";
+    -fx-font-size: 18;
+}
+
+.button:hover{
+    -fx-background-color: "#ffc85a";
+}
